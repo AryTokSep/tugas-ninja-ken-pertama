@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container-header {
+    background-color: rgb(48, 42, 48);
+    color: #fff;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.container-main1 h1 {
+    font-size: 140px;
+    text-align: center;
+}
+
+.container-main1 h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #aa9e2e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ninja {
+    width: 200px;
+    height: 200px;
+    margin-left: 44%;
+}
+
+.project {
+    height: 400px;
+    text-align: center;
+    background-color: #ececea;
+    padding: 100px;
+}
+
+.project p {
+    padding-top: 10px;
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contents-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contents-picture {
+    margin-left: 300px;
+}
+
+.contents-item {
+    float: left;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+.contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    height: 500px;
+    margin-top: 100px;
+    background-color: #f3f0ed;
+    text-align: center;
+}
+
+.contact-form h4 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec
+}
+
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+
+  .contact-submit {
+    background-color: #c0b51f;
+    border-radius: 10px;
+    color: #fff;
+    height: 50px;
+    padding: 0px;
+  }
+
+.picture {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: rgb(48, 42, 48);
+    color: #fff;
+    height: 120px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
